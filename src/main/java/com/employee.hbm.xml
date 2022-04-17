@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name ="com.Employee" table="emp_xmlway">
+<id name="empId" column="employee_id">
+<generator class="increment"/>
+</id>
+<property name="empName" column="employee_name"/>
+<property name="designation" column="designation"/>
+</class>
+</hibernate-mapping>
